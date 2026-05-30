@@ -13,11 +13,7 @@
           </time>
         </i>
       </span>
-      {{ if .Params.link }}
-        <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
-      {{ else }}
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}{{ if or .Params.externalUrl .Params.link }} ↪{{ end }}</a>
     </li>
     {{ else }}
     <li>
