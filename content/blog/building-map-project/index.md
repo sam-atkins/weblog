@@ -47,7 +47,7 @@ Resolving the issue where Foursquare does not always have the info for each venu
 
 **Solution:**
 
-- A forum post recommended using ‘hasOwnProperty` - [MDN: hasOwnProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+- A forum post recommended using `hasOwnProperty` - [MDN: hasOwnProperty](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 - For example:
 
 ```javascript
