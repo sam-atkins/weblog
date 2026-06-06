@@ -1,3 +1,9 @@
 {{ define "main" }}
 {{ .Content }}
+<h2>My most recent posts</h2>
+<ul>
+  {{ range first .Site.Params.homePageRecentPostCount (where .Site.RegularPages "Section" "blog") }}
+  <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
 {{ end }}
