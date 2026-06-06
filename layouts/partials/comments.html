@@ -1,0 +1,9 @@
+{{ if .Params.bluesky_thread_uri }}
+<section class="bsky-comments-section">
+  <h2>Comments</h2>
+  <div id="bsky-comments-host" data-thread-uri="{{ .Params.bluesky_thread_uri }}">
+    <p>Loading comments...</p>
+  </div>
+</section>
+<script src="{{ "js/bsky-comments.js" | absURL }}" defer></script>
+{{ end }}
