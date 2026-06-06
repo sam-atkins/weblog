@@ -33,6 +33,9 @@ enableRobotsTXT = true
       madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
+  # Number of recent posts to show on the home page
+  homePageRecentPostCount = 10
+
   # The description of your website
   description = "Sam's Log"
 
