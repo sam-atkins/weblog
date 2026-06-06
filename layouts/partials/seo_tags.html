@@ -11,12 +11,6 @@
 {{ if and (and (default false .Site.Params.generateSocialCard) (not (isset .Params "images"))) (eq .Kind "page") }}
   {{ partial "social_card.html" . }}
 {{ else }}
-  <!-- Open Graph / Facebook -->
-  {{ template "_internal/opengraph.html" . }}
-
-  <!-- Twitter -->
-  {{ template "_internal/twitter_cards.html" . }}
-
   <!-- Microdata -->
   {{ template "_internal/schema.html" . }}
 {{ end }}
