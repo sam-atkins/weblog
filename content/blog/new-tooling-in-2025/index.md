@@ -5,6 +5,7 @@ draft: false
 description:
 isStarred: false
 externalUrl:
+bluesky_thread_uri: "https://bsky.app/profile/samatkins.net/post/3mnmpc44o5c27"
 ---
 I read a blog about the tools someone uses and this prompted the idea to write what I use. OK, I'm shamelessly copying the idea of writing about the tools I use day to day. (I can't remember where I saw it but if I find it, I will add a link to it here.)
 
