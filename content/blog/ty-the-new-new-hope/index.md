@@ -5,6 +5,7 @@ draft: false
 description:
 isStarred: false
 externalUrl:
+bluesky_thread_uri: "https://bsky.app/profile/did:plc:5irhlgzf4ibs5l3axqsbzfl5/post/3mnotku46vf2g"
 ---
 This is a riff on my old post about [`uv`](/post/uv-the-new-hope/). Astral have succeeded with `ruff` and `uv`. Can they also succeed with `ty`?
 
